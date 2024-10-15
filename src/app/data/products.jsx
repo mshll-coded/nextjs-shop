@@ -1,9 +1,9 @@
-import imgBBMuffin from '../assets/menu/blueberrymuffin.webp';
-import imgCChunk from '../assets/menu/chocolatechunk.webp';
-import imgCDough from '../assets/menu/cookiedough.webp';
-import imgCBCookie from '../assets/menu/cornbreadcookie.webp';
-import imgBrownie from '../assets/menu/fudgebrownie.webp';
-import imgPButter from '../assets/menu/peanutbutter.webp';
+import imgBBMuffin from '../../assets/menu/blueberrymuffin.webp';
+import imgCChunk from '../../assets/menu/chocolatechunk.webp';
+import imgCDough from '../../assets/menu/cookiedough.webp';
+import imgCBCookie from '../../assets/menu/cornbreadcookie.webp';
+import imgBrownie from '../../assets/menu/fudgebrownie.webp';
+import imgPButter from '../../assets/menu/peanutbutter.webp';
 
 export const products = [
   { name: 'Double Chocolate Chunk', price: 1.99, image: imgCChunk },
