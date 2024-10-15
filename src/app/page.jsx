@@ -1,22 +1,8 @@
 import Image from 'next/image';
 import storeImg from '../assets/store-front.jpg';
-import imgBBMuffin from '../assets/menu/blueberrymuffin.webp';
-import imgCChunk from '../assets/menu/chocolatechunk.webp';
-import imgCDough from '../assets/menu/cookiedough.webp';
-import imgCBCookie from '../assets/menu/cornbreadcookie.webp';
-import imgBrownie from '../assets/menu/fudgebrownie.webp';
-import imgPButter from '../assets/menu/peanutbutter.webp';
+import { products } from './products';
 
 export default function Home() {
-  const products = [
-    { name: 'Double Chocolate Chunk', price: 1.99, image: imgCChunk },
-    { name: 'Cookie Dough', price: 1.99, image: imgCDough },
-    { name: 'Cornbread Cookie', price: 0.99, image: imgCBCookie },
-    { name: 'Double Fudge Brownie', price: 2.99, image: imgBrownie },
-    { name: 'Blueberry Muffin', price: 0.99, image: imgBBMuffin },
-    { name: 'Peanut Butter Cookie', price: 1.99, image: imgPButter },
-  ];
-
   return (
     <div className="bg-zinc-950 flex justify-center flex-col items-center pb-24 gap-6 min-h-screen container mx-auto">
       <div className="flex justify-center flex-col items-center gap-6 min-h-screen">
