@@ -1,11 +1,11 @@
-import imgBBMuffin from '../../assets/menu/blueberrymuffin.webp';
-import imgCChunk from '../../assets/menu/chocolatechunk.webp';
-import imgCDough from '../../assets/menu/cookiedough.webp';
-import imgCBCookie from '../../assets/menu/cornbreadcookie.webp';
-import imgBrownie from '../../assets/menu/fudgebrownie.webp';
-import imgPButter from '../../assets/menu/peanutbutter.webp';
+import imgBBMuffin from './images/blueberrymuffin.webp';
+import imgCChunk from './images/chocolatechunk.webp';
+import imgCDough from './images/cookiedough.webp';
+import imgCBCookie from './images/cornbreadcookie.webp';
+import imgBrownie from './images/fudgebrownie.webp';
+import imgPButter from './images/peanutbutter.webp';
 
-export const products = [
+const products = [
   { name: 'Double Chocolate Chunk', price: 10, image: imgCChunk },
   { name: 'Cookie Dough', price: 10, image: imgCDough },
   { name: 'Cornbread Cookie', price: 2, image: imgCBCookie },
@@ -13,3 +13,5 @@ export const products = [
   { name: 'Blueberry Muffin', price: 1, image: imgBBMuffin },
   { name: 'Peanut Butter Cookie', price: 8, image: imgPButter },
 ];
+
+export default products;

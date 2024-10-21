@@ -1,11 +1,11 @@
-import { products } from '../data/products';
+import products from '../data/products';
 import ProductItem from './ProductItem';
 
 function ProductList() {
   return (
-    <div className="flex gap-8 flex-wrap justify-center items-center mx-20">
+    <div className="flex flex-wrap justify-center items-center gap-8 mx-20">
       {products.map((product) => (
-        <ProductItem key={product.name} name={product.name} image={product.image} price={product.price} />
+        <ProductItem key={product.name} product={product} />
       ))}
     </div>
   );
